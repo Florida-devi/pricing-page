@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="pricing-container">
+        <div class="heading">
+            <h1>Choose your Plan</h1>
+            <h3>And Start Everyday with Us... </h3>
+        </div>
+        <div class="plans_container">
+            <div class="pricing-card">
+                <div class="head_basic">
+                    <h2>Basic Plan</h2>
+                </div>
+                <ul>
+                    <li><span style="color: rgb(54, 165, 54);">✔</span>watch on 1 device</li>
+                    <li><span>❌</span>Standard UHD 4k</li>
+                    <li><span style="color: green;">✔</span>Ads on all content</li>
+                    <li><span>❌</span>Upto Dolby Atoms</li>
+                </ul>
+                <p>$99/Month<span style="color: RED; margin-left: 10px; font-size: 19px;"><strike>$299</strike></span></p>
+                <button class="payment-btn" id="choose-btn">Select</button>
+
+            </div>
+            <div class="pricing-card">
+                <div class="head_pro">
+                    <h2>Pro Plan</h2>
+                </div>
+                <ul>
+                    <li><span style="color: green; ">✔</span>watch on 2 device</li>
+                    <li><span style="color: green;">✔</span>Standard UHD 4k</li>
+                    <li><span style="color: green;">✔</span>Ads on all content</li>
+                    <li><span>❌</span>Upto Dolby Atoms</li>
+                </ul>
+                <p>$299/Month<span style="color: RED; margin-left: 10px; font-size: 19px;"><strike>$399</strike></span></p>
+                <button class="payment-btn" id="choose-btn2">Select</button>
+
+            </div>
+            <div class="pricing-card">
+                <div class="head_pre">
+                    <h2>Premium Plan</h2>
+                </div>
+                <ul>
+                    <li><span style="color: green;">✔</span>watch on 4 device</li>
+                    <li><span style="color: green;">✔</span>Standard UHD 4K</li>
+                    <li><span>❌</span>Ads on all content</li>
+                    <li><span style="color: green;">✔</span>Upto Dolby Atoms</li>
+                </ul>
+                <p>$499/Month<span style="color: RED; margin-left: 10px; font-size: 19px;"><strike>$599</strike></span></p>
+                <button class="payment-btn" id="choose-btn3" >Select</button>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="payment-success" class="hidden">
+        <div class="sucess_line">
+            <h2> Your Plan has purchased Sucessfully!!</h2>
+            <h1>ENJOY!!🤩</h1>
+            <button id="close-btn">OK</button>
+        </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
